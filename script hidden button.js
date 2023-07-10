@@ -3,7 +3,7 @@ function getRandomInt(max) {
 }
 
 let buttonWin = getRandomInt(3);
-
+console.log(buttonWin);
 function winButtonFirst() {    
     if(buttonWin == 0) {
         document.getElementById("text").innerHTML = 'Castigator'
